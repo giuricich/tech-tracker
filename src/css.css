@@ -1,0 +1,195 @@
+:root {
+    --color-foreground: #6264a7;
+    --color-background: var(--color-foreground);
+    --color-border: #e0e0e0;
+    --color-shadow: #000;
+
+    --color-foreground-hover: var(--color-foreground);
+    --color-background-hover: #494b83;
+    --color-border-hover: #b2b5ff;
+    --color-shadow-hover: #000;
+
+    --color-foreground-active: var(--color-foreground);
+    --color-background-active: var(--color-foreground);
+    --color-border-active: #E1DFDD;
+
+    --color-foreground-focus: var(--color-foreground);
+    --color-background-focus: var(--color-foreground);
+    --color-border-focus: #000;
+
+    --color-foreground-pressed: var(--color-background-hover);
+    --color-background-pressed: #464775;
+    --color-border-pressed: var(--color-border-hover);
+
+    --color-foreground-disabled: #c7c7c7;
+    --color-background-disabled: #f0f0f0;
+    --color-border-disabled: #3d3d3d;
+
+    --color-foreground-1: var(--color-foreground);
+    --color-foreground-2: var(--color-background-hover);
+    --color-foreground-3: #c7c9ff;
+    --color-foreground-4: #fff;
+    --color-foreground-5: #fff;
+
+    --color-background-1: #e9eaf6;
+    --color-background-2: #3d3e66;
+    --color-background-3: #323348;
+    --color-background-4: var(--color-background-pressed);
+    --color-background-5: #dbdcf0;
+    --color-background-6: var(--color-foreground);
+    --color-border-1: var(--color-border-hover);
+    --color-border-2: var(--color-foreground-3);
+
+    --color-foreground-hover-1: #fff;
+    --color-foreground-hover-2: var(--color-foreground-3);
+    --color-background-hover-1: var(--color-background-1);
+    --color-background-hover-2: #E5E5F1;
+
+    --color-foreground-pressed-1: #fff;
+    --color-background-pressed-1: #E5E5F1;
+    --color-foreground-active-1: var(--color-foreground);
+    --color-foreground-active-2: var(--color-background-1);
+    --color-background-active-1: var(--color-foreground);
+    --color-border-active-1: var(--color-background-1);
+    --color-border-active-2: var(--color-border-hover);
+
+    --color-foreground-focus-1: var(--color-foreground);
+    --color-foreground-focus-2: var(--color-background-hover)
+    --color-foreground-focus-3: var(--color-background-1);
+    --color-foreground-focus-4: #fff;
+    --color-background-focus-1: var(--color-background-1);
+    --color-background-focus-2: var(--color-background-2)
+    --color-background-focus-3: var(--color-background-3);
+    --color-border-focus-within: #fff;
+    --color-border-focus-1: var(--color-foreground);
+    --color-foreground-disabled-1: var(--color-foreground-disabled)
+    --color-background-disabled-1: var(--color-background-disabled)
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-foreground: #9ea2ff;
+        --color-background: #6264A7;
+        --color-border: #616161;
+        --color-shadow: #000;
+
+        --color-foreground-hover: var(--color-foreground);
+        --color-background-hover: #494b83;
+        --color-border-hover: var(--color-background);
+        --color-shadow-hover: #000;
+
+        --color-foreground-active: var(--color-foreground);
+        --color-background-active: var(--color-foreground);
+        --color-border-active: var(--color-border);
+
+        --color-foreground-focus: var(--color-foreground);
+        --color-background-focus: var(--color-foreground);
+        --color-border-focus: #fff;
+
+        --color-foreground-pressed: #c7c9ff;
+        --color-background-pressed: #464775;
+        --color-border-pressed: var(--color-background-pressed);
+
+        --color-foreground-disabled: #5c5c5c;
+        --color-background-disabled: #1f1f1f;
+        --color-border-disabled: #424242;
+
+        --color-foreground-1: var(--color-foreground);
+        --color-foreground-2: var(--color-foreground);
+        --color-foreground-3: var(--color-foreground-pressed);
+        --color-foreground-4: #fff;
+        --color-foreground-5: #252423;
+
+        --color-background-1: #323348;
+        --color-background-2: #3d3e66;
+        --color-background-3: var(--color-background-1);
+        --color-background-4: #0a0a0a;
+        --color-background-5: var(--color-background-2);
+        --color-background-6: var(--color-foreground);
+
+        --color-border-1: var(--color-background-pressed);
+        --color-border-2: var(--color-background-pressed);
+
+        --color-foreground-hover-1: #fff;
+        --color-foreground-hover-2: var(--color-foreground-pressed);
+        --color-background-hover-1: var(--color-background-2);
+        --color-background-hover-2: #33344A;
+
+        --color-foreground-pressed-1: #fff;
+        --color-background-pressed-1: var(--color-background-pressed);
+
+        --color-foreground-active-1: var(--color-foreground);
+        --color-foreground-active-2: #e9eaf6;
+        --color-background-active-1: var(--color-foreground);
+        --color-border-active-1: var(--color-background-pressed);
+        --color-border-active-2: var(--color-background-pressed);
+
+        --color-foreground-focus-1: var(--color-foreground);
+        --color-foreground-focus-2: var(--color-foreground);
+        --color-foreground-focus-3: var(--color-foreground-active-2);
+        --color-foreground-focus-4: #fff;
+
+        --color-background-focus-1: var(--color-background-1);
+        --color-background-focus-2: var(--color-background-2);
+        --color-background-focus-3: var(--color-background-1);
+
+        --color-border-focus-within: #000;
+        --color-border-focus-1: var(--color-foreground);
+
+        --color-foreground-disabled-1: var(--color-foreground-disabled);
+        --color-background-disabled-1: var(--color-background-disabled);
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-background-focus);
+}
+
+header {
+    width: 100%;
+    background-color: var(--color-primary);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    font-size: 2em;
+}
+header h2:first-of-type, footer h2:first-of-type {
+    font-size: 5em;
+    padding: 10px;
+    border-right : 5px solid  var(--color-foreground);
+    border-bottom:5px solid  var(--color-foreground);
+}
+
+header h2:last-of-type, footer h2:last-of-type {
+    font-size: 5em;
+    padding: 10px;
+    border-left : 5px solid  var(--color-foreground);
+    border-bottom: 5px solid  var(--color-foreground);
+}
+
+/* this is it chief */
+[calendar]  {
+    display: grid;
+    grid-template-columns: repeat(7, minmax(12vw, 1fr));
+    grid-gap: 1px;
+    grid-auto-rows: minmax(12vw, 1fr);
+}
+
+[calendar] > li {
+    border: 1px solid var(--color-background-2);
+}
+
+/* stops the grids from getting bigger */
+@media (min-width: 1080px) {
+
+    [calendar]  {
+        grid-template-columns: repeat(7, minmax(150px, 1fr));
+        grid-auto-rows: minmax(150px, 1fr);
+        width: 1080px;
+    }
+}

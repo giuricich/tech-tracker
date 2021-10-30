@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "esModuleInterop": true,
+        "sourceMap": true
+    },
+    // runs everything in the src directory through the typescript compiler
+    // might have to change if this gives errors compiling non typescript files
+    "include" : ["src"],
+}

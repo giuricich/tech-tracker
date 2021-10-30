@@ -1,0 +1,41 @@
+/* 
+this is not the greatest css framework in the world, this is just attribute 
+*/
+
+
+
+/* ------------------------------------ flex related selectors ------------------------------- */
+
+[flex] {
+  display: flex;
+}
+
+[center-items] {
+  align-items: center;
+}
+
+[space-between] {
+  justify-content: space-between;
+}
+
+[horizontal] {
+  flex-direction: row;
+}
+
+[vertical] {
+  flex-direction: column;
+}
+
+/* ------------------------------------ positioning related selectors ------------------------------- */
+
+[full-width] {
+  width: 100%;
+}
+
+[fixed] {
+  position: fixed;
+}
+
+[bottom] {
+  bottom: 0;
+}
